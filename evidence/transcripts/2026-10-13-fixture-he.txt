@@ -1,0 +1,42 @@
+# agent-he fixture evaluation transcript
+
+Date: 2026-10-13
+Agent: Cursor / Composer
+Invocation: local skill checkout; operator-driven pass-one
+Target: tests/fixtures/bad.html and tests/fixtures/good.html
+Edited: false
+
+## Commands
+
+```sh
+cd tests/fixtures
+python3 -m http.server 8765 --bind 127.0.0.1
+python3 ../../skills/agent-he/scripts/inventory.py \
+  http://127.0.0.1:8765/bad.html \
+  http://127.0.0.1:8765/good.html \
+  --extras
+python3 ../../skills/agent-he/scripts/contrast.py vars \
+  ../../evidence/inventory/sample.css
+python3 ../../skills/agent-he/scripts/contrast.py matrix \
+  ../../evidence/inventory/sample.css --min 3.0
+```
+
+## Result
+
+Inventory on the bad fixture reported missing lang, raw
+entities, missing social metadata, missing viewport meta,
+and a missing image alt. The severity-ranked report records
+F1–F4 from those HTML/metadata defects (viewport noted under
+limitations rather than as its own row) and F5 from the
+sample border palette. The good fixture cleared the
+HTML/metadata checks. Report:
+evidence/findings/WORKED_EXAMPLE.md.
+
+## Markers
+
+FINDING  <html> has no lang attribute
+FINDING  raw entities in the title: &#8211;
+FINDING  no Open Graph or Twitter-card metadata
+FINDING  1 of 2 <img> have no alt attribute
+1.24:1
+http://127.0.0.1:8765/bad.html

@@ -1,0 +1,13 @@
+{
+  "name": "trycopilotai-agent-he",
+  "owner": {
+    "name": "trycopilot.ai"
+  },
+  "plugins": [
+    {
+      "name": "agent-he",
+      "source": "./",
+      "description": "Run a heuristic evaluation on a UI with measured evidence against the thirteen-heuristic CS147 checklist."
+    }
+  ]
+}

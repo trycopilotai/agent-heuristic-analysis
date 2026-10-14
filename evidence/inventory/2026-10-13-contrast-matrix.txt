@@ -1,0 +1,8 @@
+| foreground | background | ratio | AA text | AA large/UI | AAA text |
+| ---------- | ---------- | ----- | ------- | ----------- | -------- |
+| --bg | --border | 1.24:1 | **FAIL** | **FAIL** | **FAIL** |
+| --border | --bg | 1.24:1 | **FAIL** | **FAIL** | **FAIL** |
+| --border | --muted | 2.05:1 | **FAIL** | **FAIL** | **FAIL** |
+| --muted | --border | 2.05:1 | **FAIL** | **FAIL** | **FAIL** |
+| --bg | --muted | 2.54:1 | **FAIL** | **FAIL** | **FAIL** |
+| --muted | --bg | 2.54:1 | **FAIL** | **FAIL** | **FAIL** |

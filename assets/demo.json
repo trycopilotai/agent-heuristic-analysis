@@ -1,0 +1,22 @@
+{
+  "kind": "abridged reconstruction of a fixture inventory",
+  "source": "evidence/inventory/2026-10-13-fixture-inventory.txt",
+  "source_sha256": "c361db36e3dc78f883117609cd0ffdc2766cd9722543992bf998fdf8385ae0f2",
+  "builder_sha256": "3d19fb2506e02a8244d1bfe0fd4c105214d86b94f3a334be1581748a3eec3ad0",
+  "dependency": "Pillow==11.3.0",
+  "canvas": [
+    1500,
+    1400
+  ],
+  "cumulative_visible_lines": [
+    2,
+    4,
+    12,
+    28
+  ],
+  "loop": 0,
+  "assets": {
+    "demo.gif": "d4d36babdb50fbdb5dcabbad7d2dc111bc78f1cd4db8f467da94a16229772fd3",
+    "demo-poster.png": "9f2946fe79334ba96b65118371bf35e499caac6e344908679577225bd2329579"
+  }
+}

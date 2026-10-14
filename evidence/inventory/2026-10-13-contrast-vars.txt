@@ -1,0 +1,4 @@
+--bg      #ffffff
+--border  #e5e7eb
+--ink     #111111
+--muted   #9ca3af

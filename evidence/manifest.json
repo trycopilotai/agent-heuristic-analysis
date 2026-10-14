@@ -1,0 +1,14 @@
+{
+  "agent": "Cursor / Composer",
+  "date": "2026-10-13",
+  "input_commit": null,
+  "inventory_sha256": "c361db36e3dc78f883117609cd0ffdc2766cd9722543992bf998fdf8385ae0f2",
+  "invocation": "operator-driven pass-one on shipped fixtures",
+  "output_sha256": "93bd83373bf9522aed497fb64bed8013f1d729e91293991eaecca472eac099b3",
+  "schema": 1,
+  "skill_name": "agent-he",
+  "skill_sha256": "e4a44ca6437aec0163503d47a9659507f574f9f8f09f66ab4b6dc5c223b2f4e6",
+  "transcript_edited": false,
+  "transcript_sha256": "efb61e4cd9b98d147943c6b4e140e46511e6e57ce0b57c087fbc9dd32ca12004",
+  "version": "0.1.0"
+}

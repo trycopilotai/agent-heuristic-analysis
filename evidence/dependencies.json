@@ -1,0 +1,13 @@
+{
+  "dependencies": [
+    {
+      "commit": "7856512a84d96ff796cc10975e219b5b2a0836f3",
+      "name": "trycopilotai/lint",
+      "ref": "refs/tags/v0.1.7",
+      "repository": "https://github.com/trycopilotai/lint",
+      "resolved_at": "2026-10-14T03:10:44.255457+00:00",
+      "tag_object": "db4807fc428cf5696fa5d6725ea048a9569613a6"
+    }
+  ],
+  "schema": 1
+}

@@ -1,0 +1,74 @@
+====================================================================
+http://127.0.0.1:8765/bad.html
+  200  780 bytes  10 ms
+  content-type: text/html
+  FINDING  <html> has no lang attribute (WCAG 3.1.1, Level A)
+  title: Episode 7 – Sample Guest: Demo &#8211; A Long Title
+  FINDING  raw entities in the title: &#8211;
+  FINDING  raw entities in visible text: &#8211;
+  FINDING  no Open Graph or Twitter-card metadata
+  FINDING  no viewport meta tag
+  note     no <link rel=icon>; check /favicon.ico
+  FINDING  1 of 2 <img> have no alt attribute
+  counts: 2 links, 0 buttons, 1 inputs, 3 audio, 0 video, 0 iframe
+  headings: {"h1": 1}
+  inline script: 141 bytes
+====================================================================
+http://127.0.0.1:8765/good.html
+  200  950 bytes  1 ms
+  content-type: text/html
+  lang: en
+  title: A perfectly ordinary page
+  social: 3 og, 1 twitter
+  counts: 1 links, 1 buttons, 0 inputs, 0 audio, 0 video, 0 iframe
+  headings: {"h1": 1, "h2": 1}
+  inline script: 0 bytes
+====================================================================
+http://127.0.0.1:8765/robots.txt
+  404  469 bytes  1 ms
+  content-type: text/html;charset=utf-8
+  FINDING  <html> has no lang attribute (WCAG 3.1.1, Level A)
+  title: Error response
+  FINDING  no Open Graph or Twitter-card metadata
+  FINDING  no viewport meta tag
+  note     no <link rel=icon>; check /favicon.ico
+  counts: 0 links, 0 buttons, 0 inputs, 0 audio, 0 video, 0 iframe
+  headings: {"h1": 1}
+  inline script: 0 bytes
+====================================================================
+http://127.0.0.1:8765/sitemap.xml
+  404  469 bytes  1 ms
+  content-type: text/html;charset=utf-8
+  FINDING  <html> has no lang attribute (WCAG 3.1.1, Level A)
+  title: Error response
+  FINDING  no Open Graph or Twitter-card metadata
+  FINDING  no viewport meta tag
+  note     no <link rel=icon>; check /favicon.ico
+  counts: 0 links, 0 buttons, 0 inputs, 0 audio, 0 video, 0 iframe
+  headings: {"h1": 1}
+  inline script: 0 bytes
+====================================================================
+http://127.0.0.1:8765/favicon.ico
+  404  469 bytes  0 ms
+  content-type: text/html;charset=utf-8
+  FINDING  <html> has no lang attribute (WCAG 3.1.1, Level A)
+  title: Error response
+  FINDING  no Open Graph or Twitter-card metadata
+  FINDING  no viewport meta tag
+  note     no <link rel=icon>; check /favicon.ico
+  counts: 0 links, 0 buttons, 0 inputs, 0 audio, 0 video, 0 iframe
+  headings: {"h1": 1}
+  inline script: 0 bytes
+====================================================================
+http://127.0.0.1:8765/agent-he-deliberately-missing/
+  404  469 bytes  0 ms
+  content-type: text/html;charset=utf-8
+  FINDING  <html> has no lang attribute (WCAG 3.1.1, Level A)
+  title: Error response
+  FINDING  no Open Graph or Twitter-card metadata
+  FINDING  no viewport meta tag
+  note     no <link rel=icon>; check /favicon.ico
+  counts: 0 links, 0 buttons, 0 inputs, 0 audio, 0 video, 0 iframe
+  headings: {"h1": 1}
+  inline script: 0 bytes
+====================================================================
