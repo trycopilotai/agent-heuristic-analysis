@@ -2,6 +2,10 @@
 
 Measured agent heuristic evaluation, not a skim.
 
+[![auto-lint-pr](https://github.com/trycopilotai/agent-heuristic-analysis/actions/workflows/auto-lint-pr.yml/badge.svg)](https://github.com/trycopilotai/agent-heuristic-analysis/actions/workflows/auto-lint-pr.yml)
+[![check](https://github.com/trycopilotai/agent-heuristic-analysis/actions/workflows/check.yml/badge.svg)](https://github.com/trycopilotai/agent-heuristic-analysis/actions/workflows/check.yml)
+[![lint](https://github.com/trycopilotai/agent-heuristic-analysis/actions/workflows/lint.yml/badge.svg)](https://github.com/trycopilotai/agent-heuristic-analysis/actions/workflows/lint.yml)
+
 An agent skill that runs Nielsen’s heuristic evaluation on a
 live UI with agent-specific measurement rules — source
 sweep, contrast arithmetic, multi-scale sampling, and attack
