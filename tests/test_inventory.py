@@ -27,7 +27,9 @@ def fixture(name):
 
 class TestAttributes(unittest.TestCase):
     def test_double_quoted(self):
-        self.assertEqual(inventory.attributes('lang="en" dir="ltr"'), {"lang": "en", "dir": "ltr"})
+        self.assertEqual(
+            inventory.attributes('lang="en" dir="ltr"'), {"lang": "en", "dir": "ltr"}
+        )
 
     def test_single_quoted(self):
         self.assertEqual(inventory.attributes("lang='en'"), {"lang": "en"})
